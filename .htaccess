@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteRule ^login$ login.php [L]
+
+RewriteRule ^farmasi$ farmasi/input-resep.php [L]
+RewriteRule ^farmasi/detail-resep$ farmasi/detail-resep.php [L]
+
+Options All -Indexes
